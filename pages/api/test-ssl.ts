@@ -39,8 +39,10 @@ export default function handler(
         `,
       );
 
+      console.log("Success");
       console.log(response);
     } catch (error) {
+      console.log("Error");
       console.log(error);
     }
 
